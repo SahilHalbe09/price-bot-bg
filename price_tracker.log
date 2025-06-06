@@ -1,0 +1,34 @@
+2025-06-06 14:18:31,977 - INFO - Starting G-Shock price tracking session
+2025-06-06 14:18:31,977 - INFO - Starting comprehensive price check across all sites
+2025-06-06 14:18:31,978 - INFO - Checking Amazon India...
+2025-06-06 14:18:31,978 - INFO - Scraping Amazon India using static method
+2025-06-06 14:18:35,087 - INFO - Found price text for Amazon India: '8,367'
+2025-06-06 14:18:38,152 - INFO - Checking Flipkart...
+2025-06-06 14:18:38,152 - INFO - Scraping Flipkart using dynamic method
+2025-06-06 14:18:41,874 - INFO - Browser driver initialized successfully
+2025-06-06 14:19:02,458 - INFO - Primary selector timed out for Flipkart, trying backup
+2025-06-06 14:19:06,495 - INFO - Checking Myntra...
+2025-06-06 14:19:06,495 - INFO - Scraping Myntra using dynamic method
+2025-06-06 14:19:12,634 - INFO - Checking Casio Official...
+2025-06-06 14:19:12,635 - INFO - Scraping Casio Official using static method
+2025-06-06 14:19:27,798 - ERROR - Network error while scraping Casio Official: HTTPSConnectionPool(host='www.casio.com', port=443): Read timed out. (read timeout=15)
+2025-06-06 14:19:29,800 - INFO - Checking Swiss Time House...
+2025-06-06 14:19:29,800 - INFO - Scraping Swiss Time House using static method
+2025-06-06 14:19:34,173 - INFO - Checking Just In Time...
+2025-06-06 14:19:34,173 - INFO - Scraping Just In Time using static method
+2025-06-06 14:19:34,286 - ERROR - Network error while scraping Just In Time: 403 Client Error: Forbidden for url: https://justintime.in/products/casio-resin-black-digital-mens-watch-g987
+2025-06-06 14:19:37,287 - INFO - Checking Tata Cliq...
+2025-06-06 14:19:37,287 - INFO - Scraping Tata Cliq using dynamic method
+2025-06-06 14:19:44,043 - INFO - Checking Ajio...
+2025-06-06 14:19:44,043 - INFO - Scraping Ajio using dynamic method
+2025-06-06 14:19:59,674 - INFO - Primary selector timed out for Ajio, trying backup
+2025-06-06 14:20:14,988 - WARNING - Both selectors timed out for Ajio
+2025-06-06 14:20:14,990 - WARNING - Price element not found on Ajio
+2025-06-06 14:20:17,990 - INFO - Checking Helios...
+2025-06-06 14:20:17,990 - INFO - Scraping Helios using static method
+2025-06-06 14:20:20,460 - INFO - Price check completed. Retrieved 6 prices.
+2025-06-06 14:20:20,460 - INFO - No price history file found or file is empty. This appears to be the first run.
+2025-06-06 14:20:20,461 - INFO - Created new price history file with headers
+2025-06-06 14:20:20,461 - INFO - Saved 6 price records to history
+2025-06-06 14:20:20,463 - INFO - Price tracking session completed successfully
+2025-06-06 14:20:22,659 - INFO - Browser driver closed

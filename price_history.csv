@@ -1,0 +1,7 @@
+timestamp,site,price,is_new_low,below_threshold
+2025-06-06 14:20:20,Amazon India,8367.0,True,False
+2025-06-06 14:20:20,Flipkart,9195.0,True,False
+2025-06-06 14:20:20,Myntra,9195.0,True,False
+2025-06-06 14:20:20,Swiss Time House,9195.0,True,False
+2025-06-06 14:20:20,Tata Cliq,9195.0,True,False
+2025-06-06 14:20:20,Helios,9195.0,True,False
